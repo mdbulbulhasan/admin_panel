@@ -1,4 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91ff6a9f-1528-44d2-974e-059d0f067ecc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin_panel/src/components/Chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_panel/src/components/TableList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nWUfV9VyZw5iFgwICSmfW77v7U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Personal Project/admin_panel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\bulbu\\Downloads\\WebStorm-2024.2.3.win\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91ff6a9f-1528-44d2-974e-059d0f067ecc" name="Changes" comment="" />
+      <created>1729088430020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729088430020</updated>
+      <workItem from="1729088430815" duration="6055000" />
+      <workItem from="1729094636778" duration="5000" />
+      <workItem from="1729132420028" duration="12168000" />
+      <workItem from="1729170389411" duration="11592000" />
+      <workItem from="1729220106354" duration="117000" />
+      <workItem from="1729220233146" duration="27771000" />
+      <workItem from="1729308929050" duration="33170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin_panel/src/components/Navbar.vue</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin_panel/src/components/Navbar.vue</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin_panel/src/components/Content.vue</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

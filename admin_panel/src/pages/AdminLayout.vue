@@ -1,20 +1,16 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
-import Content from "@/components/Content.vue";
 import Sidebar from "@/components/Sidebar.vue";
 </script>
 
 <template>
-  <section class="flex bg-gray-300 h-screen">
-    <div class="w-[10%] hidden lg:flex md:hidden border-2">
+  <section class="flex bg-white h-screen">
+    <div class="w-[10%] hidden lg:flex md:hidden border-2 lg:w-[20%]">
       <Sidebar/>
     </div>
-    <div class="w-[90%]">
+    <div class="lg:w-[90%] bg-[rgba(0,0,0,0.1)] w-full">
       <Navbar/>
-      <div class="font-bold shadow-2xl bg-white w-fit mx-auto flex justify-center items-center h-16 mb-5 mt-4 rounded-md">
-        <h1 class="p-5">Dashboard</h1>
-      </div>
-      <Content/>
+      <router-view/>
     </div>
 
   </section>

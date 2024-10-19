@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import HomeLayout from "@/pages/HomeLayout.vue";
 import AdminLayout from "@/pages/AdminLayout.vue";
+import Content from "@/components/Content.vue";
+import TableList from "@/components/TableList.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -15,6 +17,16 @@ const router = createRouter({
             path: "/AdminPanel",
             name: "admin",
             component: AdminLayout,
+            children: [
+                {
+                    path: "",
+                    component: Content,
+                },
+                {
+                    path: "/AdminPanel/TableList",
+                    component: TableList,
+                }
+            ],
         },
     ],
 });
