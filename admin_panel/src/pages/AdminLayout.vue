@@ -10,12 +10,8 @@ import Sidebar from "@/components/Sidebar.vue";
     </div>
     <div class="lg:w-[90%] bg-[rgba(0,0,0,0.1)] w-full">
       <Navbar/>
-      <router-view/>
+      <router-view />
     </div>
-
   </section>
 
-
-
-  <router-view />
 </template>
