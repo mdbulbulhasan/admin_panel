@@ -15,7 +15,7 @@ import Chart from "@/components/Chart.vue";
 <!-- First Row   -->
     <div class="lg:flex">
       <div class="flex m-5 justify-center lg:pr-0 pr-8 items-center w-full">
-        <Card class="h-full lg:p-[6.5rem] md:p-[6.5rem] p-3 flex flex-col justify-center items-start shadow-black shadow-sm">
+        <Card class="h-full lg:p-[6.5rem] md:p-[6.5rem] p-1.5 flex flex-col justify-center items-start shadow-black shadow-sm">
           <CardContent>
             <div class="flex items-center gap-10 text-[rgba(0,0,0,0.75)]">
               <font-awesome-icon :icon="['fas', 'database']" class="text-8xl text-yellow-500" />
@@ -32,7 +32,7 @@ import Chart from "@/components/Chart.vue";
         </Card>
       </div>
       <div class="flex m-5 justify-center lg:pr-0 pr-8 items-center w-full">
-        <Card class="h-full lg:p-[6.5rem] md:p-[6.5rem] p-3 flex flex-col justify-center items-start">
+        <Card class="h-full lg:p-[6.5rem] md:p-[6.8rem] p-3 flex flex-col justify-center items-start shadow-black shadow-sm">
           <CardContent>
             <div class="flex justify-evenly items-center gap-10 text-[rgba(0,0,0,0.75)]">
               <font-awesome-icon :icon="['fas', 'file-invoice-dollar']" class="text-8xl text-green-600" />
@@ -53,7 +53,7 @@ import Chart from "@/components/Chart.vue";
     <!--   Second Row   -->
     <div class="lg:flex">
       <div class="flex m-5 justify-center lg:pr-0 pr-8 items-center w-full">
-        <Card class="h-full lg:p-[6.5rem] md:p-[6.5rem] p-3 flex flex-col justify-center items-start">
+        <Card class="h-full lg:p-[6.5rem] md:p-[6.8rem] p-2 flex flex-col justify-center items-start shadow-black shadow-sm">
           <CardContent>
             <div class="flex justify-evenly items-center gap-28 text-[rgba(0,0,0,0.75)]">
               <font-awesome-icon :icon="['fas', 'triangle-exclamation']" class="text-8xl text-red-500" />
@@ -71,7 +71,7 @@ import Chart from "@/components/Chart.vue";
         </Card>
       </div>
       <div class="flex m-5 justify-center lg:pr-0 pr-8 items-center w-full">
-        <Card class="h-full lg:p-[6.5rem] md:p-[6.5rem] p-3 flex flex-col justify-center items-start">
+        <Card class="h-full lg:p-[6.5rem] md:p-[7.1rem] p-3 flex flex-col justify-center items-start shadow-black shadow-sm">
           <CardContent>
             <div class="flex justify-evenly items-center gap-[4.5rem] text-[rgba(0,0,0,0.75)]">
               <font-awesome-icon :icon="['fab', 'twitter']" class="text-8xl text-blue-400" />
@@ -90,7 +90,7 @@ import Chart from "@/components/Chart.vue";
       </div>
     </div>
 <!--    Third Row-->
-    <div class="lg:w-[96%] lg:h-[97%] lg:ml-6 lg:p-0 md:w-[66%] md:h-[48%] md:ml-[17.5%] md:p-0 w-[97%] h-[78%] mt-4 ml-2 bg-white rounded-lg" >
+    <div class="shadow-black shadow-sm lg:w-[95.6%] lg:h-[97%] lg:ml-[2.3%] lg:p-0 md:w-[66%] md:h-[48%] md:ml-[17.5%] md:p-0 w-[97%] h-[78%] mt-4 ml-2 bg-white rounded-lg" >
         <Chart/>
     </div>
 
