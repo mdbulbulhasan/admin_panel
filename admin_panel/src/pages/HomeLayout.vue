@@ -1,13 +1,14 @@
 <script setup>
 
-import Header from "@/components/Sidebar.vue";
+
+import Login from "@/components/Login.vue";
 </script>
 
 
 <template>
-  <p>
-    This Home Layout
-  </p>
+  <div class="flex h-screen justify-center items-center">
+    <Login/>
+  </div>
 </template>
 
 <style scoped>
