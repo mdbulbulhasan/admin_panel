@@ -26,7 +26,8 @@ async function SubmitHandler(e) {
         'Content-Type': 'application/json',
       }
     })
-    console.log(response.data);
+    const data = response.data;
+    console.log(typeof data);
     if (response.status === 200) {
       isClicked.value = false;
       await router.push('/AdminPanel');

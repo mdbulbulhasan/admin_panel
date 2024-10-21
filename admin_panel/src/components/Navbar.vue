@@ -39,7 +39,7 @@ const position = ref('bottom')
             <NavItems/>
           </SheetContent>
         </Sheet>
-        <h1 class="lg:flex hidden text-2xl font-semibold text-[rgba(0,0,0,0.6)]">Dashboard</h1>
+<!--        <h1 class="lg:flex hidden text-2xl font-semibold text-[rgba(0,0,0,0.6)]">Dashboard</h1>-->
       </div>
 
     <div class="flex justify-between gap-3 text-2xl">

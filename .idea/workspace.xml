@@ -8,7 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/ui/input/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/ui/input/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/TableList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/TableList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +84,7 @@
       <workItem from="1729308929050" duration="37781000" />
       <workItem from="1729399157318" duration="14093000" />
       <workItem from="1729483329127" duration="7963000" />
+      <workItem from="1729508703664" duration="15715000" />
     </task>
     <servers />
   </component>
