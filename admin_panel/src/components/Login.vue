@@ -3,8 +3,6 @@ import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
@@ -42,24 +40,25 @@ async function SubmitHandler(e) {
 </script>
 
 <template>
-  <Card class="w-[350px]">
+  <Card class="lg:w-[600px] md:w-[50%] w-[90%] bg-gray-300 shadow-black shadow-lg lg:p-14">
     <CardHeader>
-      <CardTitle>Dashboard Login</CardTitle>
+      <CardTitle>Admin Login</CardTitle>
     </CardHeader>
     <CardContent>
       <form @submit="SubmitHandler">
         <div class="grid items-center w-full gap-4">
           <div>
-            <Input type="text" id="name" name="name" placeholder="username" />
+            <Input class="pl-2 !border-none !focus:outline-none !focus:ring-0" type="text" id="name" name="name" placeholder="username" />
           </div>
-          <div>
-            <Input type="password" id="password" name="password" placeholder="password"  />
+          <div class=" border-none focus:outline-none focus:ring-0">
+            <Input class="pl-2 " type="password" id="password" name="password" placeholder="password"  />
           </div>
           <div class="flex w-full justify-end">
-            <Button class="w-[20%]" type="submit">{{isClicked ? "Loading" : "Login"}}</Button>
+            <Button class="w-[20%] text-lg hover:bg-gray-400 hover:text-black rounded-2xl md:p-6" type="submit">{{isClicked ? "Loading" : "Login"}}</Button>
           </div>
 
         </div>
+
 
       </form>
     </CardContent>
