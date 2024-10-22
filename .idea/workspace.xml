@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ff6a9f-1528-44d2-974e-059d0f067ecc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/NavItems.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/components/TableList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/components/TableList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin_panel/src/pages/AdminLayout.vue" afterDir="false" />
-    </list>
+    <list default="true" id="91ff6a9f-1528-44d2-974e-059d0f067ecc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +78,7 @@
       <workItem from="1729399157318" duration="14093000" />
       <workItem from="1729483329127" duration="7963000" />
       <workItem from="1729508703664" duration="15715000" />
+      <workItem from="1729568580269" duration="745000" />
     </task>
     <servers />
   </component>
