@@ -1,6 +1,4 @@
 <script setup>
-
-
 import axios from "axios";
 import {onMounted, ref} from "vue";
 const products = ref([]);
@@ -13,21 +11,19 @@ async function FetchProduct() {
   } catch (error) {
     console.log(error);
   }
-
 }
 onMounted(()=>{
   FetchProduct();
 })
 </script>
-
 <template>
-  <section>
-    <table class="min-w-full border-collapse border border-gray-300">
+  <section class="overflow-auto w-full h-[85vh]">
+    <table class="border-collapse border border-gray-300">
       <!-- Table headers -->
       <thead>
       <tr class="bg-gray-200">
-        <th class="border border-gray-300 px-4 py-2">ID</th>
         <th class="border border-gray-300 px-4 py-2">Title</th>
+        <th class="border border-gray-300 px-4 py-2">Images</th>
         <th class="border border-gray-300 px-4 py-2">Category</th>
         <th class="border border-gray-300 px-4 py-2">Price</th>
         <th class="border border-gray-300 px-4 py-2">Rating</th>
@@ -41,12 +37,13 @@ onMounted(()=>{
         <th class="border border-gray-300 px-4 py-2">Depth</th>
       </tr>
       </thead>
-
       <!-- Table body where products are listed -->
       <tbody>
-      <tr v-for="(item, i) in products.slice(0, 8)" :key="i" class="odd:bg-white even:bg-gray-50">
-        <td class="border border-gray-300 px-4 py-2">{{ item.id }}</td>
+      <tr v-for="(item, i) in products.slice(20,28)" :key="i" class="odd:bg-white even:bg-gray-50">
         <td class="border border-gray-300 px-4 py-2">{{ item.title }}</td>
+        <td class="border border-gray-300 px-4 py-2">
+          <img :src="item.images[0]" class="h-10 w-10" alt="">
+        </td>
         <td class="border border-gray-300 px-4 py-2">{{ item.category }}</td>
         <td class="border border-gray-300 px-4 py-2">{{ item.price }}</td>
         <td class="border border-gray-300 px-4 py-2">{{ item.rating }}</td>
@@ -56,7 +53,7 @@ onMounted(()=>{
           {{ tag }}
           </span>
         </td>
-        <td class="border border-gray-300 px-4 py-2">{{ item.brand }}</td>
+        <td class="border border-gray-300 px-4 py-2">{{ item.brand ? item.brand : "none" }}</td>
         <td class="border border-gray-300 px-4 py-2">{{ item.sku }}</td>
         <td class="border border-gray-300 px-4 py-2">{{ item.weight }}</td>
         <td class="border border-gray-300 px-4 py-2">{{ item.dimensions.width }}</td>

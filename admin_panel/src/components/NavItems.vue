@@ -34,6 +34,11 @@ const menuItems = [
     text: 'MAPS',
     route: '/AdminPanel',
   },
+  {
+    icon: ['fas', 'arrow-right-from-bracket'],
+    text: 'LOGOUT',
+    route: '/',
+  },
 ];
 </script>
 
@@ -46,9 +51,6 @@ const menuItems = [
       <router-link :to="item.route" class="hover:font-semibold group-hover:text-white">{{ item.text }}</router-link>
 
     </li>
-    <a href="/" class="text-right">
-      <font-awesome-icon :icon="['fas', 'backward']"/>
-    </a>
   </ul>
 
 </template>
